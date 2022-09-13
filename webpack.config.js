@@ -8,7 +8,8 @@ module.exports = {
   mode: 'development',
   watch: !prod,
   entry: {
-    index: './public/js/index.js',
+    //index: './public/js/index.js',
+    index: ['./public/scss/style.scss', './public/js/index.js'],
   },
   devtool: 'inline-source-map',
   devServer: {
