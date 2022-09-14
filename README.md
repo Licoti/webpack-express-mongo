@@ -1,6 +1,6 @@
 # Boilerplate
 
-nodejs (express - twig), webpack 5, mongodb
+nodejs (express - twig), webpack 5, mongodb (mongoose), Bootstrap 5
 
 Minimum node version : 14.15
 

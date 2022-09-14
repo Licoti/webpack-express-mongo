@@ -1,13 +1,14 @@
 {% extends 'layout.twig' %}
 
 {% block body %}
-  <h1>{{title}}</h1>
-  <p>Welcome to {{title}} !</p>
-    
+  <main class="container">
+    <h1>{{title}}</h1>
+    <p>Welcome to {{title}} !</p>
+
     <form>
       <input id="username" type="text" placeholder="pseudo">
       <input id="password" type="password" placeholder="password">
       <input id="registerForm" type="submit">
     </form>
-    
+  </main>
 {% endblock %}
