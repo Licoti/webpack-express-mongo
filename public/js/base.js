@@ -24,11 +24,6 @@ export function initHome () {
       const pass = $('#password').val();
       let userInfo;
 
-/*      userInfo.push({
-        username: user,
-        password: pass,
-      });*/
-
       userInfo = {
         username: user,
         password: pass
